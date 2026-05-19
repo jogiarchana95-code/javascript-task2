@@ -1,117 +1,155 @@
-// 1. Favorite food
-let favoriteFood = "Biryani";
+
+
+// 1. Favorite Food
+let favoriteFood = "Pizza";
 console.log("Favorite Food:", favoriteFood);
 
-// 2. Mobile number
-let mobileNumber = "7981917295";
+// 2. Mobile Number
+let mobileNumber = "9876543210";
 console.log("Mobile Number:", mobileNumber);
 
-// 3. Boolean value
-let isOnline = false;
-console.log("Online Status:", isOnline);
+// 3. Boolean Value
+let isLoggedIn = true;
+console.log("Login Status:", isLoggedIn);
 
-// 4. Undefined variable
-let data;
-console.log("Type of data:", typeof data);
+// 4. Undefined Variable
+let userData;
+console.log("Datatype:", typeof userData);
 
-// 5. Array of animals
-let animals = ["Lion", "Tiger", "Elephant", "Dog", "Cat", "Rabbit"];
+// 5. Array with 6 Animals
+let animals = ["Lion", "Tiger", "Elephant", "Zebra", "Monkey", "Rabbit"];
 
+// 6. Print Second Animal
 console.log("Second Animal:", animals[1]);
+
+// 7. Print Last Animal
 console.log("Last Animal:", animals[animals.length - 1]);
 
-// 6. Bike object
+// 8. Bike Object
 let bike = {
-  name: "Yamaha",
-  model: "R15",
-  color: "Black"
+  name: "Royal Enfield",
+  model: "Classic 350",
+  color: "Red"
 };
 
+// 9. Print Bike Color
 console.log("Bike Color:", bike.color);
 
-// 7. Arithmetic operations
-let a = 20;
-let b = 5;
-
+// 10. Subtraction
+let a = 40;
+let b = 15;
 console.log("Subtraction:", a - b);
-console.log("Division:", a / b);
-console.log("Remainder:", 15 % 2);
-console.log("Power:", 2 ** 5);
 
-// 8. Increment and decrement
-let num1 = 5;
+// 11. Division
+let x = 100;
+let y = 20;
+console.log("Division:", x / y);
+
+// 12. Modulus
+console.log("15 % 2 =", 15 % 2);
+
+// 13. Exponent
+console.log("2 ** 5 =", 2 ** 5);
+
+// 14. Post Increment
+let num1 = 8;
 console.log("Post Increment:", num1++);
-console.log("After Increment:", num1);
+console.log("Updated Value:", num1);
 
-let num2 = 10;
+// 15. Pre Increment
+let num2 = 12;
 console.log("Pre Increment:", ++num2);
 
-let num3 = 20;
+// 16. Post Decrement
+let num3 = 25;
 console.log("Post Decrement:", num3--);
-console.log("After Decrement:", num3);
+console.log("Updated Value:", num3);
 
-let num4 = 50;
+// 17. Pre Decrement
+let num4 = 60;
 console.log("Pre Decrement:", --num4);
 
-// 9. Comparison operators
+// 18. Greater Than
 console.log("100 > 50 :", 100 > 50);
+
+// 19. Less Than
 console.log("25 < 10 :", 25 < 10);
+
+// 20. Greater Than or Equal
 console.log("50 >= 50 :", 50 >= 50);
+
+// 21. Less Than or Equal
 console.log("30 <= 25 :", 30 <= 25);
 
-// 10. Equality operators
+// 22. Double Equal
 console.log("10 == '10' :", 10 == "10");
+
+// 23. Triple Equal
 console.log("10 === '10' :", 10 === "10");
+
+// 24. Not Equal
 console.log("25 != '25' :", 25 != "25");
+
+// 25. Strict Not Equal
 console.log("25 !== '25' :", 25 !== "25");
 
-// 11. Logical operators
-console.log("AND Operator 1:", 10 > 5 && 20 > 15);
-console.log("AND Operator 2:", 5 > 10 && 20 > 15);
+// 26. AND Operator
+console.log("AND Result 1:", 15 > 5 && 25 > 10);
 
-console.log("OR Operator 1:", 5 > 10 || 20 > 15);
-console.log("OR Operator 2:", 2 > 5 || 1 > 10);
+// 27. AND Operator
+console.log("AND Result 2:", 5 > 10 && 20 > 15);
 
-console.log("NOT Operator 1:", !(10 > 5));
-console.log("NOT Operator 2:", !(5 > 10));
+// 28. OR Operator
+console.log("OR Result 1:", 5 > 10 || 20 > 15);
 
-// 12. Ternary operators
-console.log(50 > 25 ? "True" : "False");
-console.log(18 >= 21 ? "Adult" : "Minor");
+// 29. OR Operator
+console.log("OR Result 2:", 2 > 5 || 1 > 10);
 
-// 13. Cities array
-let cities = ["Delhi", "Mumbai", "Hyderabad", "Chennai", "Bangalore"];
+// 30. NOT Operator
+console.log("NOT Result 1:", !(10 > 5));
 
+// 31. NOT Operator
+console.log("NOT Result 2:", !(5 > 10));
+
+// 32. Ternary Operator
+console.log(80 > 50 ? "Condition True" : "Condition False");
+
+// 33. Age Check
+console.log(22 >= 18 ? "Eligible to Vote" : "Not Eligible");
+
+// 34. Cities Array
+let cities = ["Hyderabad", "Bangalore", "Chennai", "Delhi", "Mumbai"];
 console.log("Third City:", cities[2]);
 
-// 14. Employee object
+// 35. Employee Object
 let employee = {
-  name: "Altaf",
-  age: 26,
-  department: "IT"
+  name: "Rahul",
+  age: 28,
+  department: "Software"
 };
 
 console.log("Employee Name:", employee.name);
 
-// 15. typeof examples
-let strNum = "100";
-console.log("Type of strNum:", typeof strNum);
+// 36. String Type
+let strNum = "500";
+console.log("Datatype of strNum:", typeof strNum);
 
-let realNum = 100;
-console.log("Type of realNum:", typeof realNum);
+// 37. Number Type
+let realNum = 500;
+console.log("Datatype of realNum:", typeof realNum);
 
-// 16. Null value
+// 38. Null Value
 let emptyValue = null;
 console.log("Null Value:", emptyValue);
 
-// 17. Mixed datatype array
-let mixedArray = ["Hello", 25, true, null, undefined];
+// 39. Mixed Datatype Array
+let mixedArray = ["JavaScript", 100, true, null, undefined];
 console.log("Mixed Array:", mixedArray);
 
-// 18. Student object
+// 40. Student Object
 let student = {
-  name: "Ali",
-  mark: 85,
+  name: "Arjun",
+  marks: 92,
   passed: true
 };
 
